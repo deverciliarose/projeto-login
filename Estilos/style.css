@@ -35,9 +35,10 @@ section#login{
 }
 section#login> div#imagem{
     display: block;
-    background: #5f2c82 url(../imagens/pexels-wallace-chuck-12185443.jpg);
-    background-size: contain;
+    background: #5f2c82 url(../imagens/pexels-wallace-chuck-12185443.jpg)no-repeat;
+    background-size:cover;
     height: 200px;
+
 }
 section#login > div#formulario{
     display: block;
