@@ -6,6 +6,7 @@
     <title>login</title>
     <link rel="stylesheet" href="Estilos/style.css">
     <link rel="stylesheet" href="Estilo/media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 <body>
     <main>
@@ -19,6 +20,20 @@
                 <h1>Login</h1>
                 <p>Bem-vindo(a)! <br> Faça login para acessar seu ambiente</p>
                 <form action="login.js" method="post">
+                    <div class="campo">
+                        <label for="ilogin">Login</label>
+                        <input type="email" name="login" id="ilogin" placeholder="Digite seu e-mail">
+
+                    </div>
+                    <div class="campo">
+                        <label for="isenha">Senha</label>
+                        <span class="material-symbols-outlined">
+                            passkey
+                            </span>
+                        <input type="password" name="senha" id="isenha" placeholder="Digite sua senha">
+                        
+
+                    </div>
                     
                 </form>
 
