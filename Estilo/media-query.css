@@ -21,6 +21,22 @@
         float: right;
         width: 60%;
     }
+
+    div.campo > input{
+        background-color: #94d6d4;
+        font-size: 1em;
+        width: calc(100% - 20%);
+        height: 80%;
+        margin: 2px 0px;
+        margin-top: 5px;
+        transform: translateY(-1px);
+        border: 0px;
+        border-radius: 8px;
+        margin-bottom: 5px;
+        padding: 2px;
+        
+      
+    }
 }
 @media screen and (min-width:992px){
   
@@ -46,4 +62,21 @@
     div#formulario{
         font-size: 1.0em;
     }
+
+    div.campo > input{
+        background-color: #94d6d4;
+        font-size: 1em;
+        width: calc(100% - 12%);
+        height: 80%;
+        margin: 2px 0px;
+        transform: translateY(-1px);
+        border: 0px;
+        border-radius: 8px;
+        margin-bottom: 5px;
+        padding: 2px;
+        padding-top: 12px;
+      
+    }
+    
+
 }
